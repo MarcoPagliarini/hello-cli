@@ -1,7 +1,34 @@
 # hello-cli
 
-Una mini CLI di esempio. Perfetta per capire come è strutturato un progetto open source.
+Una mini **Command Line Interface (CLI)** di esempio, utile per capire come strutturare un progetto open source in Python.
 
-## Come si usa
+---
+
+## 🚀 Funzionalità
+- Stampa un saluto personalizzato via terminale.  
+- Struttura del progetto completa: codice, test, documentazione, workflow GitHub Actions.  
+- Perfetta come punto di partenza per nuovi progetti.
+
+---
+
+## ▶️ Utilizzo
+
+Dopo l’installazione (vedi sotto), puoi eseguire:
+
 ```bash
-python -m hello_cli --name Marco
+hello-cli --name Marco
+```
+
+## Output:
+Hello, Marco!
+
+## Installazione:
+# crea ambiente virtuale
+python -m venv .venv
+
+# attivalo
+.venv\Scripts\activate        # Windows
+source .venv/bin/activate     # Mac/Linux
+
+# installa in modalità sviluppo
+pip install -e .[dev]
