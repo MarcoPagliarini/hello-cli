@@ -20,7 +20,9 @@ hello-cli --name Marco
 ```
 
 ## Output:
+```bash
 Hello, Marco!
+```
 
 ## Installazione:
 # crea ambiente virtuale
@@ -32,3 +34,7 @@ source .venv/bin/activate     # Mac/Linux
 
 # installa in modalità sviluppo
 pip install -e .[dev]
+
+
+## Test:
+pytest
