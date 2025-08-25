@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Se usi questo software, per favore cita come segue."
+title: "hello-cli"
+version: "0.1.0"
+authors:
+  - family-names: "Pagliarini"
+    given-names: "Marco"
+date-released: "2025-08-24"
